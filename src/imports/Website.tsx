@@ -3454,20 +3454,6 @@ function Testimonial7() {
   );
 }
 
-function TestimonialSection() {
-  return (
-    <div className="content-stretch flex gap-[25px] items-start justify-center relative shrink-0" data-name="Testimonial section">
-      <Testimonial1 />
-      <Testimonial2 />
-      <Testimonial3 />
-      <Testimonial4 />
-      <Testimonial5 />
-      <Testimonial6 />
-      <Testimonial7 />
-    </div>
-  );
-}
-
 function TestimonialSection1() {
   return (
     <div className="bg-white box-border content-stretch flex flex-col gap-[30px] items-center justify-center px-[10px] py-[110px] relative shrink-0 w-[1383px]" data-name="Testimonial section">
