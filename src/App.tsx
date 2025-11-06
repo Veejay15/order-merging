@@ -275,21 +275,6 @@ function FeatureCard({ title, description, visual }: { title: string; descriptio
   );
 }
 
-// Testimonial Card Component
-function TestimonialCard() {
-  return (
-    <div className="bg-[#fcf4f3] rounded-[20px] p-5 flex flex-col gap-2 w-[280px] md:w-[320px] flex-shrink-0">
-      <div className="flex flex-col gap-2">
-        <p className="font-bold text-lg md:text-[20px]">Stribingo</p>
-        <p className="font-bold text-base md:text-[16px]">⭐⭐⭐⭐⭐</p>
-      </div>
-      <p className="text-sm md:text-[16px] text-[#1e1e1e]">
-        Saves us thousands every month. Incredible value.
-      </p>
-    </div>
-  );
-}
-
 // Simplified visualizations
 function HeroVisualization() {
   return (
